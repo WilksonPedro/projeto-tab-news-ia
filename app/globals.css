@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f2f8;
+  color: #2c2436;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  box-sizing: border-box;
+  width: min(90%, 420px);
+  padding: 2rem;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 30px #2c243616;
+}
+
+h1 { margin-top: 0; font-size: 1.6rem; }
+ul { padding-left: 1.5rem; line-height: 2; }
+li::marker { color: #8155a4; }
